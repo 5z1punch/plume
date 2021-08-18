@@ -239,6 +239,7 @@ jar {
         exclude "META-INF/*.RSA"
         include "io/github/plume/oss/**"
     }
+    archiveFileName = "plume.jar"
 
     manifest {
         attributes(
